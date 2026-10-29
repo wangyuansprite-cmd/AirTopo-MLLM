@@ -1,2 +1,2 @@
 # AirTopo-MLLM
-Multimodal Large Model for Pulmonary Airway-Related Reasoning
+Multimodal Large Model for Pulmonary Airway-Compositional Reasoning
