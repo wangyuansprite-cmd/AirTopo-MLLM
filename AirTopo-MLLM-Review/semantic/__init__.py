@@ -1,0 +1,2 @@
+"""Structured anatomical query representation."""
+

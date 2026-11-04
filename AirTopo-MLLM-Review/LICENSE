@@ -1,0 +1,17 @@
+AirTopo-MLLM License Status Notice
+
+No public software license for the original AirTopo-MLLM source code was found
+in the reviewed release materials. Consequently, this file does not grant
+permission to copy, modify, distribute, sublicense, or use that source code
+beyond rights provided by applicable law or a separate written agreement.
+
+A public license must be selected and approved by the rights holder before
+this directory is published as an open-source repository.
+
+Third-party software is not vendored in this staging directory. External
+dependencies remain governed by their respective licenses. See
+THIRD_PARTY_NOTICES.md.
+
+THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
