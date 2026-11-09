@@ -1,0 +1,116 @@
+{
+  "branches": [
+    {
+      "branch_id": 1,
+      "centerline_voxels_before_junction_deduplication": 24,
+      "end": [
+        27,
+        48,
+        48
+      ],
+      "generation": 0,
+      "side": "trachea",
+      "start": [
+        4,
+        48,
+        48
+      ]
+    },
+    {
+      "branch_id": 2,
+      "centerline_voxels_before_junction_deduplication": 21,
+      "end": [
+        43,
+        59,
+        68
+      ],
+      "generation": 1,
+      "side": "left",
+      "start": [
+        27,
+        48,
+        48
+      ]
+    },
+    {
+      "branch_id": 3,
+      "centerline_voxels_before_junction_deduplication": 21,
+      "end": [
+        43,
+        59,
+        28
+      ],
+      "generation": 1,
+      "side": "right",
+      "start": [
+        27,
+        48,
+        48
+      ]
+    },
+    {
+      "branch_id": 4,
+      "centerline_voxels_before_junction_deduplication": 15,
+      "end": [
+        57,
+        72,
+        80
+      ],
+      "generation": 2,
+      "side": "left",
+      "start": [
+        43,
+        59,
+        68
+      ]
+    },
+    {
+      "branch_id": 5,
+      "centerline_voxels_before_junction_deduplication": 15,
+      "end": [
+        57,
+        49,
+        80
+      ],
+      "generation": 2,
+      "side": "left",
+      "start": [
+        43,
+        59,
+        68
+      ]
+    },
+    {
+      "branch_id": 6,
+      "centerline_voxels_before_junction_deduplication": 15,
+      "end": [
+        57,
+        72,
+        16
+      ],
+      "generation": 2,
+      "side": "right",
+      "start": [
+        43,
+        59,
+        28
+      ]
+    },
+    {
+      "branch_id": 7,
+      "centerline_voxels_before_junction_deduplication": 15,
+      "end": [
+        57,
+        49,
+        16
+      ],
+      "generation": 2,
+      "side": "right",
+      "start": [
+        43,
+        59,
+        28
+      ]
+    }
+  ]
+}

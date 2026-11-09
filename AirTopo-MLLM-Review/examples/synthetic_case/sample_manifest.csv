@@ -1,0 +1,2 @@
+case_id,target_id,ct_path,mask_path,centerline_path,branch_map_path,prompt
+SYNTHETIC_001,whole_airway,ct.nii.gz,whole_airway_mask.nii.gz,semantic_centerline.nii.gz,branch_id_map.nii.gz,segment the entire airway tree

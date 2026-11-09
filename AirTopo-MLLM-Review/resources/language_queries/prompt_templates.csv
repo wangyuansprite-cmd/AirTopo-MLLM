@@ -1,0 +1,169 @@
+target_id,template_id,prompt_text,target,laterality,extent,generation_range
+whole_airway,whole_airway_t01,segment the entire airway tree,airway,none,none,none
+whole_airway,whole_airway_t02,identify all airways in the scan,airway,none,none,none
+whole_airway,whole_airway_t03,delineate the complete airway lumen,airway,none,none,none
+whole_airway,whole_airway_t04,extract the whole airway,airway,none,none,none
+whole_airway,whole_airway_t05,produce a mask of the full airway tree,airway,none,none,none
+whole_airway,whole_airway_t06,segment all airway branches,airway,none,none,none
+trachea,trachea_t01,segment the trachea,trachea,none,central,low
+trachea,trachea_t02,identify the tracheal airway,trachea,none,central,low
+trachea,trachea_t03,delineate the tracheal lumen,trachea,none,central,low
+trachea,trachea_t04,extract the trachea from the scan,trachea,none,central,low
+trachea,trachea_t05,produce a mask of the tracheal airway,trachea,none,central,low
+trachea,trachea_t06,segment the complete trachea,trachea,none,central,low
+left_airway,left_airway_t01,segment the left airways,airway,left,none,none
+left_airway,left_airway_t02,identify the left-sided airway tree,airway,left,none,none
+left_airway,left_airway_t03,delineate all airway branches on the left side,airway,left,none,none
+left_airway,left_airway_t04,extract the complete left airway,airway,left,none,none
+left_airway,left_airway_t05,produce a mask of the left-sided airways,airway,left,none,none
+left_airway,left_airway_t06,segment all branches of the left airway tree,airway,left,none,none
+right_airway,right_airway_t01,segment the right airways,airway,right,none,none
+right_airway,right_airway_t02,identify the right-sided airway tree,airway,right,none,none
+right_airway,right_airway_t03,delineate all airway branches on the right side,airway,right,none,none
+right_airway,right_airway_t04,extract the complete right airway,airway,right,none,none
+right_airway,right_airway_t05,produce a mask of the right-sided airways,airway,right,none,none
+right_airway,right_airway_t06,segment all branches of the right airway tree,airway,right,none,none
+central_airway,central_airway_t01,segment the central airways,airway,none,central,none
+central_airway,central_airway_t02,identify the central airway region,airway,none,central,none
+central_airway,central_airway_t03,delineate the proximal central airway branches,airway,none,central,none
+central_airway,central_airway_t04,extract the central airway tree,airway,none,central,none
+central_airway,central_airway_t05,produce a mask of the central airways,airway,none,central,none
+central_airway,central_airway_t06,segment all central airway branches,airway,none,central,none
+peripheral_airway,peripheral_airway_t01,segment the peripheral airways,airway,none,peripheral,none
+peripheral_airway,peripheral_airway_t02,identify the peripheral airway region,airway,none,peripheral,none
+peripheral_airway,peripheral_airway_t03,delineate the distal peripheral airway branches,airway,none,peripheral,none
+peripheral_airway,peripheral_airway_t04,extract the peripheral airway tree,airway,none,peripheral,none
+peripheral_airway,peripheral_airway_t05,produce a mask of the peripheral airways,airway,none,peripheral,none
+peripheral_airway,peripheral_airway_t06,segment all peripheral airway branches,airway,none,peripheral,none
+left_central,left_central_t01,segment the left central airways,airway,left,central,none
+left_central,left_central_t02,identify the central airways on the left side,airway,left,central,none
+left_central,left_central_t03,delineate the left-sided central airway branches,airway,left,central,none
+left_central,left_central_t04,extract the proximal central branches of the left airway tree,airway,left,central,none
+left_central,left_central_t05,produce a mask of the left central airways,airway,left,central,none
+left_central,left_central_t06,segment central airway branches from the left side,airway,left,central,none
+right_central,right_central_t01,segment the right central airways,airway,right,central,none
+right_central,right_central_t02,identify the central airways on the right side,airway,right,central,none
+right_central,right_central_t03,delineate the right-sided central airway branches,airway,right,central,none
+right_central,right_central_t04,extract the proximal central branches of the right airway tree,airway,right,central,none
+right_central,right_central_t05,produce a mask of the right central airways,airway,right,central,none
+right_central,right_central_t06,segment central airway branches from the right side,airway,right,central,none
+left_peripheral,left_peripheral_t01,segment the left peripheral airways,airway,left,peripheral,none
+left_peripheral,left_peripheral_t02,identify the peripheral airways on the left side,airway,left,peripheral,none
+left_peripheral,left_peripheral_t03,delineate the left-sided peripheral airway branches,airway,left,peripheral,none
+left_peripheral,left_peripheral_t04,extract the distal peripheral branches of the left airway tree,airway,left,peripheral,none
+left_peripheral,left_peripheral_t05,produce a mask of the left peripheral airways,airway,left,peripheral,none
+left_peripheral,left_peripheral_t06,segment peripheral airway branches from the left side,airway,left,peripheral,none
+right_peripheral,right_peripheral_t01,segment the right peripheral airways,airway,right,peripheral,none
+right_peripheral,right_peripheral_t02,identify the peripheral airways on the right side,airway,right,peripheral,none
+right_peripheral,right_peripheral_t03,delineate the right-sided peripheral airway branches,airway,right,peripheral,none
+right_peripheral,right_peripheral_t04,extract the distal peripheral branches of the right airway tree,airway,right,peripheral,none
+right_peripheral,right_peripheral_t05,produce a mask of the right peripheral airways,airway,right,peripheral,none
+right_peripheral,right_peripheral_t06,segment peripheral airway branches from the right side,airway,right,peripheral,none
+left_low,left_low_t01,segment the left low-generation airways,airway,left,none,low
+left_low,left_low_t02,identify the early-generation airway branches on the left side,airway,left,none,low
+left_low,left_low_t03,delineate the left-sided airways in the proximal-generation range,airway,left,none,low
+left_low,left_low_t04,extract low-generation branches from the left airway tree,airway,left,none,low
+left_low,left_low_t05,produce a mask of the left airways in the early-generation range,airway,left,none,low
+left_low,left_low_t06,segment left-sided airway branches assigned to the proximal-generation range,airway,left,none,low
+left_mid,left_mid_t01,segment the left mid-generation airways,airway,left,none,mid
+left_mid,left_mid_t02,identify the intermediate-generation airway branches on the left side,airway,left,none,mid
+left_mid,left_mid_t03,delineate the left-sided airways in the mid-generation range,airway,left,none,mid
+left_mid,left_mid_t04,extract mid-generation branches from the left airway tree,airway,left,none,mid
+left_mid,left_mid_t05,produce a mask of the left airways in the intermediate-generation range,airway,left,none,mid
+left_mid,left_mid_t06,segment left-sided airway branches assigned to the mid-generation range,airway,left,none,mid
+left_high,left_high_t01,segment the left high-generation airways,airway,left,none,high
+left_high,left_high_t02,identify the late-generation airway branches on the left side,airway,left,none,high
+left_high,left_high_t03,delineate the left-sided airways in the distal-generation range,airway,left,none,high
+left_high,left_high_t04,extract high-generation branches from the left airway tree,airway,left,none,high
+left_high,left_high_t05,produce a mask of the left airways in the late-generation range,airway,left,none,high
+left_high,left_high_t06,segment left-sided airway branches assigned to the distal-generation range,airway,left,none,high
+right_low,right_low_t01,segment the right low-generation airways,airway,right,none,low
+right_low,right_low_t02,identify the early-generation airway branches on the right side,airway,right,none,low
+right_low,right_low_t03,delineate the right-sided airways in the proximal-generation range,airway,right,none,low
+right_low,right_low_t04,extract low-generation branches from the right airway tree,airway,right,none,low
+right_low,right_low_t05,produce a mask of the right airways in the early-generation range,airway,right,none,low
+right_low,right_low_t06,segment right-sided airway branches assigned to the proximal-generation range,airway,right,none,low
+right_mid,right_mid_t01,segment the right mid-generation airways,airway,right,none,mid
+right_mid,right_mid_t02,identify the intermediate-generation airway branches on the right side,airway,right,none,mid
+right_mid,right_mid_t03,delineate the right-sided airways in the mid-generation range,airway,right,none,mid
+right_mid,right_mid_t04,extract mid-generation branches from the right airway tree,airway,right,none,mid
+right_mid,right_mid_t05,produce a mask of the right airways in the intermediate-generation range,airway,right,none,mid
+right_mid,right_mid_t06,segment right-sided airway branches assigned to the mid-generation range,airway,right,none,mid
+right_high,right_high_t01,segment the right high-generation airways,airway,right,none,high
+right_high,right_high_t02,identify the late-generation airway branches on the right side,airway,right,none,high
+right_high,right_high_t03,delineate the right-sided airways in the distal-generation range,airway,right,none,high
+right_high,right_high_t04,extract high-generation branches from the right airway tree,airway,right,none,high
+right_high,right_high_t05,produce a mask of the right airways in the late-generation range,airway,right,none,high
+right_high,right_high_t06,segment right-sided airway branches assigned to the distal-generation range,airway,right,none,high
+central_low,central_low_t01,segment the central low-generation airways,airway,none,central,low
+central_low,central_low_t02,identify the early-generation branches in the central airway region,airway,none,central,low
+central_low,central_low_t03,delineate central airways from the proximal-generation range,airway,none,central,low
+central_low,central_low_t04,extract the low-generation airway branches that are central,airway,none,central,low
+central_low,central_low_t05,produce a mask of the central airways in the early-generation range,airway,none,central,low
+central_low,central_low_t06,segment airway branches assigned to both the central region and the proximal-generation range,airway,none,central,low
+central_mid,central_mid_t01,segment the central mid-generation airways,airway,none,central,mid
+central_mid,central_mid_t02,identify the intermediate-generation branches in the central airway region,airway,none,central,mid
+central_mid,central_mid_t03,delineate central airways from the mid-generation range,airway,none,central,mid
+central_mid,central_mid_t04,extract the mid-generation airway branches that are central,airway,none,central,mid
+central_mid,central_mid_t05,produce a mask of the central airways in the intermediate-generation range,airway,none,central,mid
+central_mid,central_mid_t06,segment airway branches assigned to both the central region and the mid-generation range,airway,none,central,mid
+peripheral_mid,peripheral_mid_t01,segment the peripheral mid-generation airways,airway,none,peripheral,mid
+peripheral_mid,peripheral_mid_t02,identify the intermediate-generation branches in the peripheral airway region,airway,none,peripheral,mid
+peripheral_mid,peripheral_mid_t03,delineate peripheral airways from the mid-generation range,airway,none,peripheral,mid
+peripheral_mid,peripheral_mid_t04,extract the mid-generation airway branches that are peripheral,airway,none,peripheral,mid
+peripheral_mid,peripheral_mid_t05,produce a mask of the peripheral airways in the intermediate-generation range,airway,none,peripheral,mid
+peripheral_mid,peripheral_mid_t06,segment airway branches assigned to both the peripheral region and the mid-generation range,airway,none,peripheral,mid
+peripheral_high,peripheral_high_t01,segment the peripheral high-generation airways,airway,none,peripheral,high
+peripheral_high,peripheral_high_t02,identify the late-generation branches in the peripheral airway region,airway,none,peripheral,high
+peripheral_high,peripheral_high_t03,delineate peripheral airways from the distal-generation range,airway,none,peripheral,high
+peripheral_high,peripheral_high_t04,extract the high-generation airway branches that are peripheral,airway,none,peripheral,high
+peripheral_high,peripheral_high_t05,produce a mask of the peripheral airways in the late-generation range,airway,none,peripheral,high
+peripheral_high,peripheral_high_t06,segment airway branches assigned to both the peripheral region and the distal-generation range,airway,none,peripheral,high
+left_central_low,left_central_low_t01,segment the left central low-generation airways,airway,left,central,low
+left_central_low,left_central_low_t02,identify the early-generation central airways on the left side,airway,left,central,low
+left_central_low,left_central_low_t03,delineate the left-sided central airway branches in the proximal-generation range,airway,left,central,low
+left_central_low,left_central_low_t04,extract the central low-generation airway branches on the left side,airway,left,central,low
+left_central_low,left_central_low_t05,produce a mask of the left central airways from the early-generation range,airway,left,central,low
+left_central_low,left_central_low_t06,segment left-sided airway branches that are central and proximal-generation,airway,left,central,low
+left_central_mid,left_central_mid_t01,segment the left central mid-generation airways,airway,left,central,mid
+left_central_mid,left_central_mid_t02,identify the intermediate-generation central airways on the left side,airway,left,central,mid
+left_central_mid,left_central_mid_t03,delineate the left-sided central airway branches in the mid-generation range,airway,left,central,mid
+left_central_mid,left_central_mid_t04,extract the central mid-generation airway branches on the left side,airway,left,central,mid
+left_central_mid,left_central_mid_t05,produce a mask of the left central airways from the intermediate-generation range,airway,left,central,mid
+left_central_mid,left_central_mid_t06,segment left-sided airway branches that are central and mid-generation,airway,left,central,mid
+left_peripheral_mid,left_peripheral_mid_t01,segment the left peripheral mid-generation airways,airway,left,peripheral,mid
+left_peripheral_mid,left_peripheral_mid_t02,identify the intermediate-generation peripheral airways on the left side,airway,left,peripheral,mid
+left_peripheral_mid,left_peripheral_mid_t03,delineate the left-sided peripheral airway branches in the mid-generation range,airway,left,peripheral,mid
+left_peripheral_mid,left_peripheral_mid_t04,extract the peripheral mid-generation airway branches on the left side,airway,left,peripheral,mid
+left_peripheral_mid,left_peripheral_mid_t05,produce a mask of the left peripheral airways from the intermediate-generation range,airway,left,peripheral,mid
+left_peripheral_mid,left_peripheral_mid_t06,segment left-sided airway branches that are peripheral and mid-generation,airway,left,peripheral,mid
+left_peripheral_high,left_peripheral_high_t01,segment the left peripheral high-generation airways,airway,left,peripheral,high
+left_peripheral_high,left_peripheral_high_t02,identify the late-generation peripheral airways on the left side,airway,left,peripheral,high
+left_peripheral_high,left_peripheral_high_t03,delineate the left-sided peripheral airway branches in the distal-generation range,airway,left,peripheral,high
+left_peripheral_high,left_peripheral_high_t04,extract the peripheral high-generation airway branches on the left side,airway,left,peripheral,high
+left_peripheral_high,left_peripheral_high_t05,produce a mask of the left peripheral airways from the late-generation range,airway,left,peripheral,high
+left_peripheral_high,left_peripheral_high_t06,segment left-sided airway branches that are peripheral and distal-generation,airway,left,peripheral,high
+right_central_low,right_central_low_t01,segment the right central low-generation airways,airway,right,central,low
+right_central_low,right_central_low_t02,identify the early-generation central airways on the right side,airway,right,central,low
+right_central_low,right_central_low_t03,delineate the right-sided central airway branches in the proximal-generation range,airway,right,central,low
+right_central_low,right_central_low_t04,extract the central low-generation airway branches on the right side,airway,right,central,low
+right_central_low,right_central_low_t05,produce a mask of the right central airways from the early-generation range,airway,right,central,low
+right_central_low,right_central_low_t06,segment right-sided airway branches that are central and proximal-generation,airway,right,central,low
+right_central_mid,right_central_mid_t01,segment the right central mid-generation airways,airway,right,central,mid
+right_central_mid,right_central_mid_t02,identify the intermediate-generation central airways on the right side,airway,right,central,mid
+right_central_mid,right_central_mid_t03,delineate the right-sided central airway branches in the mid-generation range,airway,right,central,mid
+right_central_mid,right_central_mid_t04,extract the central mid-generation airway branches on the right side,airway,right,central,mid
+right_central_mid,right_central_mid_t05,produce a mask of the right central airways from the intermediate-generation range,airway,right,central,mid
+right_central_mid,right_central_mid_t06,segment right-sided airway branches that are central and mid-generation,airway,right,central,mid
+right_peripheral_mid,right_peripheral_mid_t01,segment the right peripheral mid-generation airways,airway,right,peripheral,mid
+right_peripheral_mid,right_peripheral_mid_t02,identify the intermediate-generation peripheral airways on the right side,airway,right,peripheral,mid
+right_peripheral_mid,right_peripheral_mid_t03,delineate the right-sided peripheral airway branches in the mid-generation range,airway,right,peripheral,mid
+right_peripheral_mid,right_peripheral_mid_t04,extract the peripheral mid-generation airway branches on the right side,airway,right,peripheral,mid
+right_peripheral_mid,right_peripheral_mid_t05,produce a mask of the right peripheral airways from the intermediate-generation range,airway,right,peripheral,mid
+right_peripheral_mid,right_peripheral_mid_t06,segment right-sided airway branches that are peripheral and mid-generation,airway,right,peripheral,mid
+right_peripheral_high,right_peripheral_high_t01,segment the right peripheral high-generation airways,airway,right,peripheral,high
+right_peripheral_high,right_peripheral_high_t02,identify the late-generation peripheral airways on the right side,airway,right,peripheral,high
+right_peripheral_high,right_peripheral_high_t03,delineate the right-sided peripheral airway branches in the distal-generation range,airway,right,peripheral,high
+right_peripheral_high,right_peripheral_high_t04,extract the peripheral high-generation airway branches on the right side,airway,right,peripheral,high
+right_peripheral_high,right_peripheral_high_t05,produce a mask of the right peripheral airways from the late-generation range,airway,right,peripheral,high
+right_peripheral_high,right_peripheral_high_t06,segment right-sided airway branches that are peripheral and distal-generation,airway,right,peripheral,high

@@ -1,0 +1,41 @@
+{
+  "airway_voxels": 6459,
+  "branch_count": 7,
+  "branch_map_dtype": "int16",
+  "case_id": "SYNTHETIC_001",
+  "centerline_voxels": 120,
+  "clinical_source": null,
+  "ct_dtype": "float32",
+  "direction_lps": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "generator": "examples/generate_synthetic_case.py",
+  "mask_dtype": "uint8",
+  "note": "Procedural format example only; not a clinical or benchmark case.",
+  "origin_lps_mm": [
+    -38.4,
+    -38.4,
+    -25.6
+  ],
+  "patient_identifier": null,
+  "seed": 2026,
+  "shape_dhw": [
+    64,
+    96,
+    96
+  ],
+  "spacing_xyz_mm": [
+    0.8,
+    0.8,
+    0.8
+  ],
+  "synthetic": true
+}
